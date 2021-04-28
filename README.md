@@ -8,6 +8,7 @@
 
 ## 优势2: 渐进式重构
 当一个业务组件(由于某些原因)代码变得越来越长, 重构就是将一些状态提取成自定义的hooks, 比类组件重构容易而且安全很多
+比如使用ahooks的useVirtualList重构大数据量列表
 
 ## 优势3: 业务逻辑更加集中化, 数据流自顶向下
 业务集中化, 意味着修改或者扩展某些业务逻辑将会效率和安全性更高, 这个在[vue3.0 composition API](https://v3.cn.vuejs.org/guide/composition-api-introduction.html#%E4%BB%8B%E7%BB%8D)中文档有详细解释
