@@ -2,6 +2,19 @@
 
 本示例分享hooks在业务中的常见应用, 分享在开发业务中的优势, 以及常用思路, 具体查看src/pages下面的代码示例
 
+### hook
+* useState, 状态管理
+* useEffect, useLayoutEffect 生命周期管理
+* useRef, 变量索引, 不触发渲染, 相当于this
+* useContext, 大型项目很有用, 配合ContextProvider, 完全可以替换第三方状态管理(redux, mbox等)
+* useMemo, 性能优化, 非常方便
+* useImperativeHandle, 外部传入ref, 用来主动控制组件
+* useDebugValue, 配合开发者工具插件
+
+不常用:
+  * useReducer
+  * useCallback
+
 ## 优势1: 复用相同的状态逻辑
 查看UserList.tsx和UserListSelect.tsx
 [官方说明](https://zh-hans.reactjs.org/docs/hooks-intro.html#its-hard-to-reuse-stateful-logic-between-components)
