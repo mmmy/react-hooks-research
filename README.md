@@ -3,6 +3,7 @@
 本示例分享hooks在业务中的常见应用, 分享在开发业务中的优势, 以及常用思路, 具体查看src/pages下面的代码示例
 
 ### hook
+用法非常简单, 在函数组件中使用以下函数即可
 * useState, 状态管理
 * useEffect, useLayoutEffect 生命周期管理
 * useRef, 变量索引, 不触发渲染, 相当于this
